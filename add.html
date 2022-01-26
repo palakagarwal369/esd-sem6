@@ -1,0 +1,55 @@
+<html>
+<head>
+<title>Insert details</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"crossorigin="anonymous"></script>
+</head>
+<body class="d-flex flex-column h-100 container" style="background-image: url('https://studentlife.lincoln.ac.uk/files/2017/06/paper-note-ipad-76752-3-1280x660.jpeg');
+background-repeat: no-repeat; background-size: cover;">
+<header>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<div class="container-fluid">
+<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+<div class="navbar-nav">
+<a class="nav-link" href="index.html">Students Data</a>
+<a class="nav-link active" aria-current="page" href="add.html">Add New Student</a>
+</div>
+</div>
+</div>
+</nav>
+</header>
+<h3>Add Student Details</h3>
+<form onsubmit="return false;" style="margin-top: 20px; background-color: #fff; box-shadow: 0 4px 8px 0 black; padding: 25px;">
+<div class="mb-3">
+<label for="name" class="form-label" style="font-weight: bold;">Name</label>
+<input type="text" class="form-control" id="name" autofocus>
+</div>
+<div class="mb-3">
+<label for="age" class="form-label" style="font-weight: bold;">Age</label>
+<input type="text" class="form-control" id="age">
+</div>
+<div class="mb-3">
+<label for="branch" class="form-label" style="font-weight: bold;">Branch</label>
+<input type="text" class="form-control" id="branch">
+</div>
+<div class="mb-3">
+<label for="year" class="form-label" style="font-weight: bold;">Year</label>
+<input type="text" class="form-control" id="year">
+</div>
+<div class="mb-3">
+<label for="phone" class="form-label" style="font-weight: bold;">Phone Number</label>
+<input type="text" class="form-control" id="phone">
+</div>
+<button class="btn btn-outline-primary" onclick="return postData()">Submit</button>
+<a href="index.html" class="btn btn-outline-danger">Cancel</a>
+</form>
+<footer class="footer mt-auto py-3" style="opacity: 1;">
+<div class="container text-center" style="color: black;">
+<span class="text-muted" >Copyright &copy; 2022</span>
+</div>
+</footer>
+</body>
+<script src="script.js"></script>
+<script>
+</script>
+</html>
